@@ -3,7 +3,7 @@ description: A wrapping implementation of HttpClient for tracking resources with
 version: 1.5.0
 repository: https://github.com/DataDog/dd-sdk-flutter
 homepage: https://datadoghq.com
-
+publish_to: none
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
@@ -12,7 +12,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  datadog_flutter_plugin: ^1.2.0
+  datadog_flutter_plugin:
+    git:
+      url: git@github.com:fahmisdk6/dd-sdk-flutter.git
+      ref: implement_datadog_trace
+      path: packages/datadog_flutter_plugin
   uuid: ^3.0.5
   http: ">=0.13.4 <2.0.0"
 
