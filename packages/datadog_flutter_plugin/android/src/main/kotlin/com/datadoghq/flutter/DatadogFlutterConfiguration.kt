@@ -141,7 +141,7 @@ data class DatadogFlutterConfiguration(
             // Always enable logging as users can create logs post initialization
             logsEnabled = true,
             crashReportsEnabled = nativeCrashReportEnabled,
-            tracesEnabled = false,
+            tracesEnabled = true,
             rumEnabled = rumConfiguration != null
         )
             .setAdditionalConfiguration(

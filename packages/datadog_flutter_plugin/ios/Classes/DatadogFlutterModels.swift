@@ -188,7 +188,7 @@ class DatadogFlutterConfiguration {
                 clientToken: clientToken,
                 environment: env
             )
-            .enableTracing(false)
+            .enableTracing(true)
             .set(rumSessionsSamplingRate: rumConfig.sampleRate)
 
             if rumConfig.detectLongTasks {
