@@ -15,7 +15,7 @@ dependencies:
   datadog_flutter_plugin:
     git:
       url: git@github.com:fahmisdk6/dd-sdk-flutter.git
-      ref: implement_datadog_trace
+      ref: dd_flutter_trace-1.0.0
       path: packages/datadog_flutter_plugin
   uuid: ^3.0.5
   http: ">=0.13.4 <2.0.0"
